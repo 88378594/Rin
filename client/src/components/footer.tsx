@@ -102,7 +102,8 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        © {new Date().getFullYear()} Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
+                        © {new Date().getFullYear()} 余生云工作室 <a className='hover:underline' href="https://beian.miit.gov.cn/#/home" target="_blank">
+黔ICP备19000115号-2</a>
                     </span>
                     {config.getBoolean('rss') && <>
                         <Spliter />
